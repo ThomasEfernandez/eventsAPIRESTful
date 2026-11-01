@@ -57,6 +57,7 @@ public class SecurityConfig {
                
                
              }
+             auth.requestMatchers("/actuator/health").permitAll();
              auth .anyRequest().authenticated();
      } );
           //  .headers(headers -> headers.frameOptions(frame -> frame.disable())); // Necesario para visualizar la consola H2
