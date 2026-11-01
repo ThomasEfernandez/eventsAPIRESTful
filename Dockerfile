@@ -3,7 +3,7 @@ WORKDIR /app
 COPY . .
 ENV LANG=C.UTF-8
 ENV LC_ALL=C.UTF-8
-RUN ./mvnw clean package -DskipTests
+RUN chmod +x mvnw && ./mvnw clean package -DskipTests
 
 FROM eclipse-temurin:21-jre
 WORKDIR /app
