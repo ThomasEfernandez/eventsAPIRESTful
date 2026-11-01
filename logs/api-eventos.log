@@ -1,0 +1,80 @@
+2026-11-01 07:14:40.128 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-11-01 07:14:40.291 INFO  c.gestion.eventos.api.ApiApplication - Starting ApiApplication using Java 21.0.13 with PID 27344 (C:\Users\thomy\OneDrive\Desktop\api\target\classes started by thomy in C:\Users\thomy\OneDrive\Desktop\api)
+2026-11-01 07:14:40.293 DEBUG c.gestion.eventos.api.ApiApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2026-11-01 07:14:40.296 INFO  c.gestion.eventos.api.ApiApplication - The following 1 profile is active: "dev"
+2026-11-01 07:14:43.757 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-01 07:14:44.002 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 220 ms. Found 5 JPA repository interfaces.
+2026-11-01 07:14:45.731 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-11-01 07:14:45.765 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-11-01 07:14:45.770 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-11-01 07:14:45.771 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2026-11-01 07:14:45.992 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-11-01 07:14:45.994 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5562 ms
+2026-11-01 07:14:46.691 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-11-01 07:14:46.948 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+2026-11-01 07:14:47.176 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-11-01 07:14:48.465 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-01 07:14:48.595 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-11-01 07:14:51.419 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1ef5cde4
+2026-11-01 07:14:51.424 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-11-01 07:14:51.827 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.11
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-01 07:14:54.764 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-01 07:14:56.617 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-01 07:14:57.480 DEBUG c.g.e.a.s.j.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2026-11-01 07:14:57.733 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-01 07:14:58.932 INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-11-01 07:14:59.249 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-01 07:15:00.545 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-11-01 07:15:01.893 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-11-01 07:15:01.973 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-11-01 07:15:02.000 INFO  c.gestion.eventos.api.ApiApplication - Started ApiApplication in 23.549 seconds (process running for 26.402)
+2026-11-01 09:00:26.765 INFO  c.gestion.eventos.api.ApiApplication - Starting ApiApplication using Java 21.0.13 with PID 12744 (C:\Users\thomy\OneDrive\Desktop\api\target\classes started by thomy in C:\Users\thomy\OneDrive\Desktop\api)
+2026-11-01 09:00:26.775 DEBUG c.gestion.eventos.api.ApiApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-11-01 09:00:26.778 INFO  c.gestion.eventos.api.ApiApplication - The following 1 profile is active: "dev"
+2026-11-01 09:00:28.623 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 9.0.1.Final
+2026-11-01 09:00:31.665 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-01 09:00:31.963 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 242 ms. Found 5 JPA repository interfaces.
+2026-11-01 09:00:35.099 INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-11-01 09:00:35.151 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-11-01 09:00:35.157 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-11-01 09:00:35.158 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-11-01 09:00:35.505 INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 8549 ms
+2026-11-01 09:00:36.388 INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-01 09:00:36.661 INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-11-01 09:00:39.030 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-01 09:00:39.180 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-11-01 09:00:42.047 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7d216ee8
+2026-11-01 09:00:42.053 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-11-01 09:00:42.660 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://ep-dry-mouse-aclfhxn9-pooler.sa-east-1.aws.neon.tech/gestioneventosdb?sslmode=require&channelBinding=require]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.11
+	Default catalog/schema: gestioneventosdb/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-01 09:00:49.114 INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-01 09:00:50.264 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-01 09:00:50.756 INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-01 09:00:52.022 DEBUG c.g.e.a.s.j.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2026-11-01 09:00:56.508 INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-11-01 09:00:57.222 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-01 09:01:04.088 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-11-01 09:01:04.429 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-11-01 09:01:04.494 INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-11-01 09:01:04.519 INFO  c.gestion.eventos.api.ApiApplication - Started ApiApplication in 42.375 seconds (process running for 48.81)
+2026-11-01 09:01:26.702 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-01 09:01:26.707 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-11-01 09:01:26.718 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2026-11-01 09:01:31.765 INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 2518 ms
